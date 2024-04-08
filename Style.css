@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap")
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    font-family: 'Roboto', serif;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: #eee;
+    font-size: 20px;
+    width: 100%;
+    flex: 1;
+    
+}
+
+h1 {
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 18px;
+    padding:10px;
+    gap: 20px;
+    margin: 0px;
+}
+
+ul.links li a {
+    text-decoration: none;
+    color: #eee !important; /* Apply color with !important to override default styles */
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 10px;
+    flex: 1;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+    height: 80%;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.h-style {  
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    width: 50%;
+    font-size: 48px;
+    font-weight:800 solid #F9FAF8;
+    margin-bottom: 0px;
+
+
+}
+
+.p { 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    width: 50%;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.img{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    margin-right: 25%;
+    width: 70%;
+    height:250px;
+    
+   
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-left: 30%;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    color: #eee;
+    font-size: 16px;   
+    transition: background-color 0.3s ease; 
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h-style2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:800;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+  
+    
+      
+    
+}
+
+.small-container {
+    padding: 5px;
+        
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;   
+    
+}
+
+.p1 {
+    font-size: 14px;
+    width: 200px;
+    height: auto;
+    text-align:center;
+    color: #1F2937;
+    font-weight: 800;
+    margin:5px;      
+} 
+
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 20px;
+
+    
+}
+
+.p2 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.p3 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: lighter;
+    text-align:center;
+    margin-left: 35%;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.call {  
+    display: flex;
+    background-color:#3882F6;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;   
+}
+
+.content2 {
+    flex: 1;
+}
+
+.p4 {
+    font-size: 18px;
+    line-height: 20px;
+    width: 50%;
+    color:#eee;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;    
+}
+
+.p5 {
+    font-size: 14px;
+    line-height: 20px;
+    color:#eee;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 2px;
+    text-align: left;    
+}
+
+.button-wrapper {
+    margin-left: 10px;
+    margin-right: 50%;
+   
+}
+
+.button1 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-left: 150%;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    color: #eee;
+    border: 2px solid #eee;
+    font-size: 16px;   
+    transition: background-color 0.3s ease; 
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 0; 
+    flex: 1;
+}
+
+
+
